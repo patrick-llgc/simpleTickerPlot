@@ -1,3 +1,6 @@
+# project history
+# 08/28/2015: cloned repository
+
 # Flask on Heroku
 
 This project is intended to help you tie together some important concepts and
