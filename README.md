@@ -1,5 +1,6 @@
 # project history
-# 08/28/2015: cloned repository
+08/28/2015: cloned repository
+09/06/2015: test branching/merging
 
 # Flask on Heroku
 
