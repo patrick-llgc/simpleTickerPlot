@@ -3,6 +3,8 @@
 
 09/06/2015: test branching/merging
 
+09/07/2015: finished milestone project
+
 # Flask on Heroku
 
 This project is intended to help you tie together some important concepts and

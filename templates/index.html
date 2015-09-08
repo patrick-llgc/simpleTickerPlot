@@ -1,14 +1,36 @@
 <!doctype html>
 <html lang="en">
-	<head>
-		<meta charset="utf-8">
-		<title>Hello, World!</title>
-		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
-	</head>
-	<body>
-		<div>
-  			<h1>Hello, World!</h1>
-  			<p>This is my first Heroku app! -Patrick</p>
-		</div>
-	</body>
+	<!-- <head> -->
+		<!-- <meta charset="utf-8"> -->
+		<title>simpleTickerPlot - my first Heroku app</title>
+		<!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css"> -->
+		<link rel=stylesheet type=text/css href='{{ url_for('static',filename='style.css')}}'>
+	<!-- </head> -->
+	<div class=page>
+		<h1>User Input</h1>
+	<div class=metanav>
+	<!-- <body> -->
+		<h4>Please enter a stock ticker eg. GOOG, and check desired features.</h4>
+		<p>This is my first Heroku app! -Patrick Liu</p>
+		<form id='userinfoform_lulu' method='post' action='index' > <!-- action is the URL you want to move to next-->
+		   <p>
+		   Ticker symbol: <input type='text' name='tickerSymbol' />
+		   </p>
+		   <p>
+		   Open price: <input type='checkbox' name='Open' value='1'/>
+		   </p>
+		   <p>
+		   Closing price: <input type='checkbox' name='Close' value='1'/>
+		   </p>
+		   <p>
+		   Adjusted closing price: <input type='checkbox' name='Adjusted Close' value='1'/>
+		   </p>
+		   <p>
+		   <input type='submit' value='Submit' /> <!-- value is the text that will appear on the button. -->
+		   </p>
+		</form>
+	<!-- </body> -->
+	</div>
+	</div>
+
 </html>
